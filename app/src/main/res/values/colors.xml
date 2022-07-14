@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_license_error_message_color">#2c000000</color>
+    <color name="background_widget_error_color">#80000000</color>
+    <color name="edit_text_color">#f5f5f5</color>
+    <color name="edit_text_hint_color">#50f5f5f5</color>
+    <color name="error_text_color">#ff483c</color>
+    <color name="file_picker_content_details_background">#28414141</color>
+    <color name="file_picker_storage_content_value_chart_color">#6ac551</color>
+    <color name="list_item_background">#303030</color>
+    <color name="list_item_selector_background">#3184e3</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="overlay_color">#20000000</color>
+    <color name="overlay_widget_color">#40000000</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="pro_label_background_color">#d53030</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="shadow_color">#4b000000</color>
+    <color name="shadow_color_light">#28000000</color>
+    <color name="sidebar_checkbox_color_checked">#00a11d</color>
+    <color name="sidebar_container_background_color">#303030</color>
+    <color name="sidebar_footer_background_color">#212121</color>
+    <color name="sidebar_header_background_color">#212121</color>
+    <color name="sidebar_item_selector_background">#3184e3</color>
+    <color name="sidebar_item_selector_background2">#606975</color>
+    <color name="stroke_license_error_message_color">#19ffffff</color>
+    <color name="stroke_widget_color">#3bffffff</color>
+    <color name="tap_coordinates_view_lines_color">#00ff00</color>
+    <color name="tap_coordinates_view_text_color">#fbff00</color>
+    <color name="text_color">#f5f5f5</color>
+    <color name="text_color_inverted">#1e1e1e</color>
+
+
+<!--    colors from files  -->
+
+
+</resources>
+

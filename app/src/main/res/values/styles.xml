@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Animation">
+    </style>
+    <style name="Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="AppTheme">
+        <item name="android:screenOrientation">@null</item>
+        <item name="android:buttonStyle">@style/AppTheme.Button</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:dropDownListViewStyle">@style/AppTheme.DropDownListViewStyle</item>
+        <item name="android:editTextStyle">@style/AppTheme.EditText</item>
+        <item name="android:listViewStyle">@style/AppTheme.ListViewStyle</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Activity</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:popupMenuStyle">@style/AppTheme.PopupMenu</item>
+        <item name="android:dialogTheme">@style/AppTheme.Dialog</item>
+    </style>
+    <style name="AppTheme.Button">
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">@dimen/button_min_width</item>
+        <item name="android:minHeight">@dimen/button_min_height</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="AppTheme.Dialog">
+        <item name="android:buttonStyle">@style/AppTheme.Button</item>
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:dropDownListViewStyle">@style/AppTheme.DropDownListViewStyle</item>
+        <item name="android:listViewStyle">@style/AppTheme.ListViewStyle</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Dialog</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:popupMenuStyle">@style/AppTheme.PopupMenu</item>
+        <item name="android:dialogTheme">@style/AppTheme.Dialog</item>
+    </style>
+    <style name="AppTheme.DialogActivity">
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="AppTheme.DropDownListViewStyle">
+        <item name="android:listSelector">@drawable/list_selector_background</item>
+        <item name="android:divider">#526793</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+    <style name="AppTheme.EditText">
+        <item name="android:textColor">@color/edit_text_color</item>
+        <item name="android:textColorHint">@color/edit_text_hint_color</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:paddingLeft">@dimen/_5sdp</item>
+        <item name="android:paddingTop">@dimen/_3sdp</item>
+        <item name="android:paddingRight">@dimen/_5sdp</item>
+        <item name="android:paddingBottom">@dimen/_3sdp</item>
+        <item name="android:textCursorDrawable">@drawable/text_cursor_drawable</item>
+    </style>
+    <style name="AppTheme.ListViewStyle">
+        <item name="android:listSelector">@drawable/list_selector_background</item>
+        <item name="android:divider">#526793</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+    <style name="AppTheme.PopupMenu">
+        <item name="android:dropDownSelector">@drawable/list_selector_background</item>
+        <item name="android:popupBackground">@color/list_item_background</item>
+    </style>
+    <style name="AppTheme.Splash">
+        <item name="android:background">@drawable/background_splash_screen</item>
+    </style>
+    <style name="Clock">
+        <item name="android:textSize">@dimen/text_size_time</item>
+<!--        <item name="android:textStyle">null</item>-->
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Date">
+        <item name="android:textSize">@dimen/text_size_date</item>
+<!--        <item name="android:textStyle">null</item>-->
+        <item name="android:textColor">#b8b8b8</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="SidebarItemSubTitle">
+        <item name="android:textSize">@dimen/sidebar_item_subtitle_text_size</item>
+        <item name="android:textColor">@color/sidebar_item_subtitle_text_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="SidebarItemTitle">
+        <item name="android:textSize">@dimen/sidebar_item_title_text_size</item>
+        <item name="android:textColor">@color/sidebar_item_title_text_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="SingleLine">
+        <item name="android:background">#40ffffff</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+<!--    <style name="Text">-->
+<!--        <item name="android:textSize">@dimen/text_size</item>-->
+<!--        <item name="android:textColor">@android:color/white</item>-->
+<!--        <item name="android:fontFamily">sans-serif</item>-->
+<!--    </style>-->
+<!--    <style name="TextAppearance.Compat.Notification">-->
+<!--    </style>-->
+<!--    <style name="TextAppearance.Compat.Notification.Info">-->
+<!--        <item name="android:textSize">12sp</item>-->
+<!--        <item name="android:textColor">?android:attr/textColorSecondary</item>-->
+<!--    </style>-->
+<!--    <style name="TextAppearance.Compat.Notification.Info.Media">-->
+<!--    </style>-->
+<!--    <style name="TextAppearance.Compat.Notification.Line2">-->
+<!--    </style>-->
+<!--    <style name="TextAppearance.Compat.Notification.Line2.Media">-->
+<!--    </style>-->
+<!--    <style name="TextAppearance.Compat.Notification.Media">-->
+<!--    </style>-->
+<!--    <style name="TextAppearance.Compat.Notification.Time">-->
+<!--        <item name="android:textSize">12sp</item>-->
+<!--        <item name="android:textColor">?android:attr/textColorSecondary</item>-->
+<!--    </style>-->
+<!--    <style name="TextAppearance.Compat.Notification.Time.Media">-->
+<!--    </style>-->
+<!--    <style name="TextAppearance.Compat.Notification.Title">-->
+<!--    </style>-->
+<!--    <style name="TextAppearance.Compat.Notification.Title.Media">-->
+<!--    </style>-->
+    <style name="TextSmall">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+<!--    <style name="TextXSmall">-->
+<!--        <item name="android:textSize">@dimen/text_size_xsmall</item>-->
+<!--        <item name="android:textColor">@android:color/white</item>-->
+<!--        <item name="android:fontFamily">sans-serif</item>-->
+<!--    </style>-->
+<!--    <style name="Widget.Compat.NotificationActionContainer">-->
+<!--    </style>-->
+<!--    <style name="Widget.Compat.NotificationActionText">-->
+<!--    </style>-->
+<!--    <style name="Widget.Support.CoordinatorLayout">-->
+<!--        <item name="statusBarBackground">#000000</item>-->
+<!--    </style>-->
+</resources>
